@@ -82,9 +82,9 @@ export const Footer = () => {
             <div className="flex flex-col gap-4 mt-4">
               <h5>Location</h5>
               <p className="text-sm">
-                1619 E Cesar Chavez St, Austin, TX 78702
+                Suzhou Industrial Park, Suzhou Area of China (Jiangsu) Pilot Free Trade Zone
                 <br />
-                Open 7AM - 4PM Daily
+                Building 1-B, Human Resources Service Industrial Park, No. 336 Fengli Street
               </p>
             </div>
           </div>
@@ -102,13 +102,8 @@ export const Footer = () => {
               />
             </div>
 
-            <a
-              href="https://www.lambdacurry.dev/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex flex-col items-start gap-1 text-sm"
-            >
-              © {new Date().getFullYear()} Made with ❤️ by LambdaCurry
+            <a href="#" rel="noopener noreferrer" className="flex flex-col items-start gap-1 text-sm">
+              © {new Date().getFullYear()} 苏州渊兮网络
             </a>
           </div>
           <div className="mt-1 flex flex-col justify-end text-xs sm:mt-0">
